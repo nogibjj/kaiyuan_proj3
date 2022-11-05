@@ -1,4 +1,4 @@
-Vegetable,Season,Month,Temp,Deasaster Happen in last 3month,Vegetable condition,Price per kg
+Vegetable,Season,Month,Temp,Deasaster,Condition,Price_per_kg
 potato,winter,jan,15,no,fresh,20
 tomato ,winter,jan,15,no,fresh,50
 peas,winter,jan,15,no,fresh,70
