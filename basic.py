@@ -28,31 +28,3 @@ def printline(results):
         print(element)
 
 
-#demo
-def demo():
-    conn = sqlite3.connect('vegetables2.db')
-    c = conn.cursor()
-
-    r1 = get_veg_by_season("winter", c)
-    #print("query1: show winter vegetables:")
-    #printline(r1)
-
-    r2 = get_veg_lower_than_price(20, c)
-    #print("query2: show vegetables which price < 20:")
-    #printline(r2)
-
-    r3 = get_veg_higher_than_price(20, c)
-    #print("query3: show vegetables which price > 20:")
-    #printline(r3)
-
-    r4 = get_cheapest_x_veg_with_x(3, c)
-    #print("query4: show cheapest x vegetables")
-    #printline(r4)
-
-    r5 = get_veg_by_name("onion", c)
-    #print("query5: show vegetable by name")
-    #printline(r5)
-
-    conn.close()
-
-demo()
