@@ -50,8 +50,8 @@ def demo():
     #printline(r4)
 
     r5 = get_veg_by_name("onion", c)
-    print("query5: show vegetable by name")
-    printline(r5)
+    #print("query5: show vegetable by name")
+    #printline(r5)
 
     conn.close()
 
