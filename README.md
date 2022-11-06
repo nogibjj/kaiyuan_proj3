@@ -17,7 +17,7 @@ Using typer in main.py, we can also use command line tool to do the query. This 
 ## 5 Queries with fixed argument
 ```
 make install
-demo.py
+python3 demo.py
 ```
 
 ## Command line tool with customized argument
