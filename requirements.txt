@@ -1,0 +1,3 @@
+pylint
+typer
+pandas
