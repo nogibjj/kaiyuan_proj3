@@ -14,7 +14,7 @@ demo.py uses the functions in basic.py to answer these questions.
 Extra:
 Using typer in main.py, we can also use command line tool to do the query. This is a more customized choice that user can decide with what argument he/she want to do the query.
 
-## 5 Query with fixed argument
+## 5 Queries with fixed argument
 ```
 make install
 demo.py
